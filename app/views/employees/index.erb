@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <% @employees.each do |employees| %>
+        <p><%= link_to "#{employees.name}", employe_path(employees) %></p>
+    <% end %>
+</body>
